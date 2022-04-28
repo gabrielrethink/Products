@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 900px;
+  margin: auto;
+}
+
+.linkmenu {
+  display: flex;
+  width: 350px;
+  border-radius: 15px;
+  padding: 10px 40px;
+  margin: 20px;
+  background: #563d7c;
+}
+
+.linkmenu:hover {
+  background: #7952b3;
+  cursor: pointer;
+}
+
+a {
+  color: lavender;
+}
+
+.linkmenu:hover a {
+  background: #7952b3;
+  color: white;
+}

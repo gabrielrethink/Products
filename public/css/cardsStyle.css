@@ -1,0 +1,23 @@
+body {
+  margin-top: 20px;
+}
+
+.productsCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: center;
+}
+
+.card {
+  margin-bottom: 10px;
+  height: 300px;
+}
+
+td,
+tr {
+  text-align: center;
+  vertical-align: middle;
+}

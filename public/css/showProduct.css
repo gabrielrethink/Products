@@ -1,0 +1,21 @@
+body {
+  max-width: 900px;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+}
+.row {
+  margin: 10px;
+}
+
+.btn {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+/* .form-control:disabled,
+.form-control[readonly] {
+  background: white;
+} */

@@ -1,0 +1,10 @@
+version: "3"
+services:
+  atopic:
+    image: products
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: products
+    ports:
+      - "8080:8080"
